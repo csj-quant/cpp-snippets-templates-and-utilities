@@ -19,3 +19,7 @@ add_executable(string_copy_move_bench src/string_copy_move_bench.cpp)
 
 # Capacity growth analysis
 add_executable(string_capacity_growth src/string_capacity_growth.cpp)
+add_executable(string_practice_problem_1 src/string_practice_problem_1.cpp)
+add_executable(bench_insert_vector_vs_list src/bench_insert_vector_vs_list.cpp)
+add_executable(bench_erase_vector_vs_list src/bench_erase_vector_vs_list.cpp)
+add_executable(bench_splice_vs_vector_move src/bench_splice_vs_vector_move.cpp)
